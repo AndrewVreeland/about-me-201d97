@@ -1,6 +1,7 @@
 'use strict';
 let totalScore = 0;
 let userName = prompt('what is your name?');
+
 function guessMyNum() {
   while (numOfGuesses) {
     const userGuess = prompt('Guess a number between 1 and 10');
@@ -18,7 +19,6 @@ function guessMyNum() {
       if (numOfGuesses === 0) {
         alert(`sorry, you are wrong. the correct answer is ${myNum}`);
       }
-
     }
   }
 }
@@ -49,7 +49,7 @@ function metalBandGuess() {
 
 function questionOne() {
   while (qOne) {
-    
+
     if (qOne === ('yes' || 'y')) {
       alert('alright here we go!');
       break;
@@ -64,7 +64,7 @@ function questionOne() {
   }
 }
 function questionTwo() {
-  
+
   if (qTwo === ('no' || 'n')) {
     totalScore++;
     alert(`Congrats ${userName}, green is my favorite color! `);
@@ -78,14 +78,14 @@ function questionThree() {
   }
   else alert('sorry you are wrong!');
 }
-function questionFour(){
+function questionFour() {
   if (qFour === ('yes' || 'y')) {
     totalScore++;
     alert('you\'re right! I am excited for this course!');
   }
   else alert('sorry you are wrong');
 }
-function questionFive(){
+function questionFive() {
   if (qFive === ('no' || 'n')) {
     totalScore++;
     alert('you\'re right, I do not live on the water. :(');
