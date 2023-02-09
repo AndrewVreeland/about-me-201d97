@@ -21,6 +21,15 @@ h3 {
   text-align: center;
   font-size: 40px;
 }
+h4 {
+  color: green;
+  font-size: 30px;
+  border-bottom: solid purple 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 308px;
+  padding-top: 200px;
+}
 
 body {
   background-color: black;
@@ -71,20 +80,42 @@ p {
 #para{
   display:flex;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
   margin-top: 10px;
 
   margin-right: auto;
+  margin-left: auto;
 }
 #para1{
-  margin-left: 350px;
+display: block;
+margin-left: 290px;
+margin-right: auto;
 }
 #para2{
-  margin-left: 440px;
+display: block;
+margin-left: 300px;
+margin-right: 0px;
 }
 #para3{
-  margin-left: 320px;
+display: block;
+margin-left: 130px;
+margin-right: auto;
 }
 .t1{
   border-bottom: solid purple 2px;
+}
+
+ol{
+  color: green;
+  list-style: upper-roman;
+  text-align: center;
+}
+ul{
+  color: green;
+  list-style:square
+}
+
+
+footer{
+  
 }
