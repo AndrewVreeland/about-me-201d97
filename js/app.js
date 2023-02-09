@@ -48,16 +48,16 @@ if (qFive === ('no' || 'n')) {
 }
 else alert('shoot I wish I lived on the water!');
 let numOfGuesses = 4;
-
+let myNum = 7
 while (numOfGuesses) {
   const userGuess = prompt('Guess a number between 1 and 10');
   numOfGuesses--;
-  if (parseInt(userGuess) === 7) {
+  if (parseInt(userGuess) === myNum) {
     totalScore++;
     alert('Congrats you picked the right number!');
     break;
   }
-  else if (parseInt(userGuess) > 7) {
+  else if (parseInt(userGuess) > myNum) {
     alert('Your guess was too high');
   }
   else {
@@ -84,6 +84,9 @@ while (totalGuesses) {
   if (!correct) {
     alert(`You have ${totalGuesses} total guesses remaining`);
     alert(`your guess was ${userGuess} and was incorrect.`);
+    if (totalGuesses === 0) {
+      alert(`My favorite metal bands are ${favBands}`);
+    }
   }
   else { break; }
 
