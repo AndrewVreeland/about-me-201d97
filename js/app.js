@@ -46,7 +46,8 @@ function metalBandGuess() {
     else { break; }
   }
 }
-
+ // My code is so clean and neat
+ 
 function questionOne() {
   while (qOne) {
 
