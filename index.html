@@ -8,6 +8,10 @@
   <title>About Me</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,7 +20,11 @@
   </header>
   <main>
     <h3 id="fam">My Family</h3>
-    <img id='image1' src="img/321283522_1191260904814536_2770420458522071573_n.jpg" alt="">
+    <figure>
+      <img id='image1' src="img/321283522_1191260904814536_2770420458522071573_n.jpg"
+      alt="Photo of site owners family.">
+      <figcaption id="figcaption">This is the site owner Andrew, his wife Kelsy, and their son Liam.</figcaption>
+    </figure>
     <p>
     <h2 id="biotit">Auto Biography</h2>
     </p>
@@ -39,31 +47,36 @@
       and a heart full of love, there is no doubt that Andrew Vreeland will continue to conquer new challenges and make
       a positive impact in the world.
     </p>
-    <section id="titles">
-      <H3 class="t1">Education History</H3>
-      <h3 class="t1">Prior Job Experience</h3>
-      <h3 class="t1">Goals</h3>
-    </section>
-    <section id="para">
-      <ul id="para1">
-        <li>Code Fellows Full Stack Development Bootcamp</li>
-        <li>Associates in Avionics Systems technology</li>
-      </ul>
-      <ul id="para2">
-        <li>Four years Active Duty Service in the Air Force as an Avionics Expeditor for F-16s</li>
-        <li>Four years Active Duty Service in the Marine Corps as an Infantry assaultmen</li>
-      </ul>
-      <ul id="para3">
-        <li>Mastering my understading of coding</li>
-        <li>Maintaing a healthy life work balance</li>
-        <li>Maximizing my time with family through financial freedom</li>
-        <li>World travel</li>
-      </ul>
+    <section id="lists">
+      <div id="div1">
+        <H3 class="t1">Education History</H3>
+        <ul id="para1">
+          <li>Code Fellows Full Stack Development Bootcamp</li>
+          <li>Associates in Avionics Systems technology</li>
+        </ul>
+      </div>
+      <div id="div2">
+        <h3 class="t1">Prior Job Experience</h3>
+        <ul id='para1'>
+          <li>Four years Active Duty Service in the Air Force as an Avionics Expeditor for F-16s</li>
+          <li>Four years Active Duty Service in the Marine Corps as an Infantry assaultmen</li>
+        </ul>
+      </div>
+
+      <div id="div3">
+        <h3 class="t1">Goals</h3>
+        <ul id= 'para1'>
+          <li>Mastering my understading of coding</li>
+          <li>Maintaing a healthy life work balance</li>
+          <li>Maximizing my time with family through financial freedom</li>
+          <li>World travel</li>
+        </ul>
+      </div>
     </section>
 
     <section id="locationList">
-      <ol class="ol1"> 
-      <H4>Top Ten Travel Locations</H4>
+      <ol class="ol1">
+        <H4>Top Ten Travel Locations</H4>
         <li>Dubai, United Arab Emirates</li>
         <li>London, United Kingdom</li>
         <li>Cancún, Mexico</li>
@@ -75,14 +88,14 @@
         <li>Paris, France</li>
         <li>Hurghada, Egypt</li>
       </ol>
-  </section>
+    </section>
     <footer>
       <section id="cont">
         <h5>Contact me</h5>
       </section>
-  </footer>
+    </footer>
   </main>
-  <script src='js/app.js'></script>
+  <!-- <script src='js/app.js'></script> -->
 </body>
 
 </html>
